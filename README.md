@@ -8,7 +8,7 @@ A tiny tool for checking the working domain of sci-hub
 
 使用方法：
 
-`perl checker.pl list`
+`perl check.pl list`
 
 ## Description
 
