@@ -9,7 +9,7 @@ A tiny tool for checking the working domain of sci-hub
 
 使用方法：
 
-`perl scihub_ck list`
+`perl scihub_ck`
 
 
 ## Description
