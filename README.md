@@ -4,6 +4,8 @@
 
 A tiny tool for checking the working domain of sci-hub
 
+Online version is available now: https://wadauk.github.io/scihub_ck/index.html
+
 
 ## Usage
 
