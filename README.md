@@ -4,7 +4,6 @@
 
 A tiny tool for checking the working domain of sci-hub
 
-Online version is available now: https://wadauk.github.io/scihub_ck/index.html
 
 
 ## Usage
@@ -23,26 +22,6 @@ The list file contained 262 domains to check. The output file will be generated 
 
 ## Working domains
 
-> Updated in 2018-01-30
+> Update every 2 hours
 
-- [x] cn
-
-- [x] gq
-
-- [x] is
-
-- [x] mn
-
-- [x] tv
-
-- [x] ws
-
-- [x] ga
-
-- [x] hk
-
-- [x] la
-
-- [x] name
-
-- [x] tw
+Online version is available now: https://wadauk.github.io/scihub_ck/index.html
