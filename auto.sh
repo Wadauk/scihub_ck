@@ -1,6 +1,9 @@
 #!/bin/bash
 # by Wadauk @ https://weibo.com/u/1657589804
 
+# pull
+git pull origin
+
 # check all the domains
 perl scihub_ck
 
