@@ -19,5 +19,5 @@ close LIST;
 foreach my $domain ( @domains ) {
 #	print $domain, "\t";
 	my $site = "http://sci-hub.$domain";
-	system("curl $site > web/$domain");
+	system("curl --connect-timeout 25 $site > web/$domain");
 }
