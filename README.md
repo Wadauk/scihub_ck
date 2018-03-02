@@ -22,19 +22,25 @@ The list file contained 262 domains to check. The output file will be generated 
 
 ## Working domains
 
-> Update every 30 minutes
-
-> Daily maintenance at 00:30
+> Update every 30 minutes. Daily maintenance at 00:30
 
 Online version is available now: https://wadauk.github.io/scihub_ck/index.html
 
 
 ## Versions
 
-v1.0.0 local version
+### v1.0.0
 
-v1.0.1 add online version
+local version
 
-v1.0.2 add pipeline shell script for local version
+### v1.0.1
 
-v1.0.3 speed up and shorten the update cycle for online version
+add online version
+
+### v1.0.2
+
+add pipeline shell script for local version
+
+### v1.0.3
+
+speed up and shorten the update cycle for online version
