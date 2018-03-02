@@ -2,6 +2,8 @@
 
 #use warnings;
 use strict;
+print "\rRead list file:\tREADING";
+print "\r               \t       ";
 
 open LIST, "<list";
 
@@ -13,6 +15,7 @@ while ( <LIST> ) {
 }
 
 close LIST;
+print "\rRead list file:\tDONE\n";
 
 #print "@domains";
 my $max = @domains;
@@ -21,6 +24,7 @@ foreach my $domain ( @domains ) {
 #	print $domain, "\t";
 	my $site = "http://sci-hub.$domain";
 	system("timeout 3 curl --connect-timeout 2 $site -o web/$domain 2>/dev/null");
-	printf("%.2f%\r", $i/$max*100);
+	printf "\rCheck working domains:\t%d(%.2f%)", $i, $i/$max*100;
 	$i++;
 }
+print "\rCheck working domains:\t$max(100%)\n";
