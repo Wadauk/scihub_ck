@@ -30,7 +30,11 @@ Online version is available now: https://wadauk.github.io/scihub_ck/index.html
 
 
 ## Versions
+
 v1.0.0 local version
+
 v1.0.1 add online version
+
 v1.0.2 add pipeline shell script for local version
+
 v1.0.3 speed up and shorten the update cycle for online version
