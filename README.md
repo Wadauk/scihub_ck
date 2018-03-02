@@ -1,10 +1,9 @@
 # scihub_ck
 
-一个简版的Sci-hub可用域名检查工具
+一个简版的Sci-hub可用域名检查工具。
 
-A tiny tool for checking the working domain of sci-hub
-
-
+Scihub_ck is a tiny tool for checking the working domain of sci-hub. Sci-Hub is a website with over 64.5 million academic papers and articles available for direct download. In 2015 academic publisher Elsevier filed a legal complaint in New York City against Sci-Hub alleging copyright infringement, and the subsequent lawsuit led to a loss of the original sci-hub.org domain. Following the first domain loss, Sci-Hub has cycled through a number of domains, some of which have been blocked in certain countries.
+For check the working domains timely, I developed the tiny tool based on Shell and Perl.
 
 ## Usage
 
@@ -33,14 +32,25 @@ Online version is available now: https://wadauk.github.io/scihub_ck/index.html
 
 local version
 
+本地版发布
+
+
 ### v1.0.1
 
 add online version
+
+增加在线版
+
 
 ### v1.0.2
 
 add pipeline shell script for local version
 
+增加本地版流程脚本
+
+
 ### v1.0.3
 
 speed up and shorten the update cycle for online version
+
+提速并缩短在线版更新周期
