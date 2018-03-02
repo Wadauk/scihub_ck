@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-use warnings;
+#use warnings;
 use strict;
 
 open LIST, "<list";
@@ -15,9 +15,12 @@ while ( <LIST> ) {
 close LIST;
 
 #print "@domains";
-
+my $max = @domains;
+my $i=0;
 foreach my $domain ( @domains ) {
 #	print $domain, "\t";
 	my $site = "http://sci-hub.$domain";
-	system("timeout 3 curl --connect-timeout 2 $site > web/$domain");
+	system("timeout 3 curl --connect-timeout 2 $site -o web/$domain 2>/dev/null");
+	printf("%.2f%\r", $i/$max*100);
+	$i++;
 }
