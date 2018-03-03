@@ -39,8 +39,8 @@ yes | rm web/*
 yes | rm -r web
 
 # upload to github
-git status 
+#git status 
 git add index.html 
-git status 
+#git status 
 git commit -m "this is my commit info note."
 git push origin 
