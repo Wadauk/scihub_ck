@@ -21,7 +21,7 @@ The list file contained 262 domains to check. The output file will be generated 
 
 ## Working domains
 
-> Update every 30 minutes. Daily maintenance at 00:30
+> Update every 5 minutes
 
 Online version is available now: https://wadauk.github.io/scihub_ck/index.html
 
