@@ -1,6 +1,8 @@
 #!/bin/bash
 # by Wadauk @ https://weibo.com/u/1657589804
 
+cd /home/scihub-ck/Git/scihub_ck
+
 # pull
 git pull origin
 
