@@ -5,7 +5,7 @@ use strict;
 print "\rRead list file:\tREADING";
 print "\r               \t       ";
 
-open LIST, "<list";
+open LIST, "<$ARGV[0]";
 
 my @domains;
 

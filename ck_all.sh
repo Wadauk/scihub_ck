@@ -9,7 +9,7 @@ git pull origin
 mkdir web
 
 # check all the domains
-perl scihub_ck
+perl scihub_ck list_all
 
 # remove the other domains
 cd web
@@ -27,6 +27,7 @@ for domain in `ls | grep -v .txt`; \
 done;
 
 # combine the result in one file
+cp dm.txt ../list_fast
 paste dm.txt sp.txt > data.txt
 
 # sort the domains by speed
