@@ -43,7 +43,7 @@ yes | rm -r web
 
 # upload to github
 #git status 
-git add index.html 
+git add index.html list_fast
 #git status 
 git commit -m "this is my commit info note."
 git push origin 
