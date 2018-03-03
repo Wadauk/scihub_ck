@@ -6,39 +6,23 @@ cd /home/scihub-ck/Git/scihub_ck
 # pull
 git pull origin
 
-mkdir web
-
-# check all the domains
-perl scihub_ck list_fast
-
-# remove the other domains
-cd web
-yes \
-  | rm `ls -l \
-  | grep -v 26860 \
-  | grep -v total \
-  | sed -e "s/.* //"`
-
 # check the speed
-for domain in `ls | grep -v .txt`; \
+for domain in `cat list_fast`; \
   do \
-  echo $domain >> dm.txt; \
   curl -o /dev/null -s -w '%{time_total}\n' "http://sci-hub.$domain" >> sp.txt; \
 done;
 
 # combine the result in one file
-paste dm.txt sp.txt > data.txt
+paste list_fast sp.txt > data.txt
 
 # sort the domains by speed
 sort -k2n data.txt > data2.txt
 
 # creat web by data
-cd ..
-perl data2index.pl web/data2.txt > index.html
+perl data2index.pl data2.txt > index.html
 
 # remove temp files
-yes | rm web/*
-yes | rm -r web
+yes | rm *.txt 
 
 # upload to github
 #git status 
