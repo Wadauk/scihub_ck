@@ -3,7 +3,6 @@
 #use warnings;
 use strict;
 print "\rRead list file:\tREADING";
-print "\r               \t       ";
 
 open LIST, "<$ARGV[0]";
 
@@ -15,6 +14,7 @@ while ( <LIST> ) {
 }
 
 close LIST;
+print "\r               \t       ";
 print "\rRead list file:\tDONE\n";
 
 #print "@domains";

@@ -4,7 +4,7 @@ use warnings;
 use strict;
 
 my $num_domain = `wc -l $ARGV[0]`;
-$num_domain=~s/(\d+).*$/\1/;
+$num_domain=~s/(\d+).*$/$1/;
 #print $num_domain;
 print '
 <!DOCTYPE html>
@@ -49,7 +49,7 @@ print '	</h2>
 my $domain;
 my $total_time;
 open DATA, "<$ARGV[0]";
-open INDEX, ">$ARGV[1]";
+#open INDEX, ">$ARGV[1]";
 
 while ( <DATA> ) {
 chomp;
@@ -80,7 +80,7 @@ print ' s</p>
 
 }
 
-close INDEX;
+#close INDEX;
 close DATA;
 
 print '</div>
