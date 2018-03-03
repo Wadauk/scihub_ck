@@ -54,3 +54,10 @@ add pipeline shell script for local version
 speed up and shorten the update cycle for online version
 
 提速并缩短在线版更新周期
+
+### v1.0.4
+
+move the codes from pi to cloud and speed up
+
+代码迁移至阿里云并提速
+
