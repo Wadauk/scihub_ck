@@ -4,6 +4,8 @@
 # pull
 git pull origin
 
+mkdir web
+
 # check all the domains
 perl scihub_ck
 
@@ -30,10 +32,11 @@ sort -k2n data.txt > data2.txt
 
 # creat web by data
 cd ..
-perl /home/pi/data2index.pl web/data2.txt > index.html
+perl data2index.pl web/data2.txt > index.html
 
 # remove temp files
 yes | rm web/*
+yes | rm -r web
 
 # upload to github
 git status 
