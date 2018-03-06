@@ -15,6 +15,15 @@ print '
 <title>Scihub_ck</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
 <link rel="stylesheet" href="./static/css/me.css">
+<script>
+var _hmt = _hmt || [];
+(function() {
+	var hm = document.createElement("script");
+	hm.src = "https://hm.baidu.com/hm.js?b15fff3776096b270e74c962c98c5dc2";
+	var s = document.getElementsByTagName("script")[0];
+	s.parentNode.insertBefore(hm, s);
+})();
+</script>
 </head>
 <body>
 
