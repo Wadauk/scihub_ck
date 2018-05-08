@@ -71,7 +71,7 @@ print '<div class="ui padded vertical segment m-padded-tb-big">
 <h3 class="ui header">';
 print $domain;
 print '</h3>
-<a href="http://www.sci-hub.';
+<a href="http://sci-hub.';
 print $domain;
 print '" target="_blank">
 <p class="m-text">sci-hub.';
