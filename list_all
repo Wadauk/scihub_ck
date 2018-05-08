@@ -112,7 +112,6 @@ int
 io
 iq
 ir
-is
 it
 je
 jm
@@ -175,7 +174,6 @@ nl
 no
 np
 nr
-nu
 nz
 om
 org
