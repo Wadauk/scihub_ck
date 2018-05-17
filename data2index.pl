@@ -100,7 +100,6 @@ print '</div>
 </div>
 
 <br>
-<p class="m-text-thin m-text-spaced m-opacity-tiny">Welcome friends from 62 contries. Thank friends for sharing this website link in Reddit, Twitter, Facebook, weibo, and other social network. If you find any issue, please conact with me(2336221276@qq.com).</p>
 <br>
 
 <footer class="ui inverted vertical segment m-padded-tb-massive">
