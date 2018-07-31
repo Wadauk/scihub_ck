@@ -40,7 +40,7 @@ var _hmt = _hmt || [];
 <div class="ui container">
 <div class="ui stackable grid">
 <div class="fifteen wide column">
-<iframe src="https://ghbtns.com/github-btn.html?user=Wadauk&repo=scihub_ck&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe><p>Tips: ooo and nu are blocked. is is re-open but do not work well. Recommend: tw and mu. <br>Technical works on the server. Most likely, the site will work in a few minutes</p>
+<iframe src="https://ghbtns.com/github-btn.html?user=Wadauk&repo=scihub_ck&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe><p>Tips: ooo and nu are blocked. is is re-opened but do not work well. Recommend: tw and mu.</p>
 <div class="ui top attached segment">
 <div class="ui middle aligned two column grid">
 <div class="column">
